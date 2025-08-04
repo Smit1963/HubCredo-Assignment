@@ -1,25 +1,4 @@
-# Lead Qualification and Automation Workflow Assignment
-
-## Target Audience Analysis for Ian Whilby
-
-Based on Ian Whilby's LinkedIn profile, the founders and CXOs most likely to take business or executive coaching from him are:
-
-**Primary Target Audience:**
-- **Service-based entrepreneurs** experiencing rapid growth but feeling overwhelmed
-- **Executive leaders** in scaling companies who need strategic guidance  
-- **Fractional leaders** who want to build with more clarity and consistency
-- **Senior executives** at crossroads in their career or business
-- **Founders** experiencing burnout while trying to scale
-- **CXOs** carrying too much responsibility alone
-
-**Specific Characteristics:**
-- High-level operators who know how to push but want sustainable growth
-- Leaders facing strategic blind spots or mindset bottlenecks
-- Service-based business owners looking to scale without burnout
-- Executives seeking clarity, confidence, and consistency
-- Leaders at inflection points (growing fast, burning out, or carrying too much alone)
-
----
+# Assignment Answers 
 
 ## Q1: Tools to Fill Missing Data Fields
 
