@@ -1,4 +1,4 @@
-# Technical Implementation Guide
+# Technical Implementation Guide.
 
 ## Setup Instructions
 
