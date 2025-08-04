@@ -33,7 +33,7 @@ Based on Ian Whilby's LinkedIn profile, the founders and CXOs most likely to tak
 - **ZoomInfo** - Enterprise-level data enrichment
 
 #### Q2: Automated Lead Qualification
-- **Zapier** - Primary automation platform
+- **n8n** - Primary automation platform
 - **Google Sheets API** - Real-time data access
 - **Qualification Criteria:**
   - Job title contains: "Founder", "CEO", "Head of Sales"
@@ -56,18 +56,18 @@ Based on Ian Whilby's LinkedIn profile, the founders and CXOs most likely to tak
 
 3. **System Architecture:**
    ```
-   Google Sheets → Zapier → Data Enrichment → Qualification → Instantly → Status Update
+   Google Sheets → n8n → Data Enrichment → Qualification → Instantly → Status Update
    ```
 
 ## 💰 Cost Breakdown
 
 **Monthly Costs:**
-- **Zapier:** $20-50/month
+- **n8n:** $20-50/month (cloud) or Free (self-hosted)
 - **Apollo.io:** $49-99/month
 - **Hunter.io:** $49/month
 - **LinkedIn Sales Navigator:** $79/month
 - **Instantly:** $97-297/month
-- **Total:** $300-600/month
+- **Total:** $300-600/month (or $200-550/month with self-hosted n8n)
 
 ## 📊 Expected Performance
 

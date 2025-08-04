@@ -53,7 +53,7 @@ Action 3: Google Sheets - Add Timestamp
 
 ### 3. Qualification Logic Code
 
-#### Zapier Formatter Configuration:
+#### n8n Formatter Configuration:
 ```javascript
 // Job Title Qualification
 const jobTitle = inputData.jobTitle.toLowerCase();
@@ -102,7 +102,7 @@ const instantlyConfig = {
 
 #### Retry Logic:
 ```javascript
-// Zapier Code Step
+// n8n Code Step
 const maxRetries = 3;
 let attempt = 0;
 
@@ -188,7 +188,7 @@ const hunterConfig = {
 
 #### Pre-Launch Testing:
 - [ ] Google Sheets API enabled
-- [ ] Zapier workflows configured
+- [ ] n8n workflows configured
 - [ ] Instantly API credentials verified
 - [ ] Apollo.io API access confirmed
 - [ ] Hunter.io API key validated
@@ -206,13 +206,13 @@ const hunterConfig = {
 ### 9. Cost Estimation
 
 #### Monthly Costs:
-- **Zapier:** $20-50/month (depending on task volume)
+- **n8n:** $20-50/month (cloud version) or Free (self-hosted)
 - **Apollo.io:** $49-99/month (depending on credits needed)
 - **Hunter.io:** $49/month (email verification)
 - **LinkedIn Sales Navigator:** $79/month
 - **Instantly:** $97-297/month (depending on campaign volume)
 
-**Total Estimated Cost:** $300-600/month
+**Total Estimated Cost:** $300-600/month (or $200-550/month with self-hosted n8n)
 
 ### 10. Scaling Considerations
 

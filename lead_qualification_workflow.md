@@ -44,7 +44,7 @@ Based on Ian Whilby's LinkedIn profile, the founders and CXOs most likely to tak
 
 **Tools Required:**
 
-1. **Zapier** - Primary automation platform
+1. **n8n** - Primary automation platform
 2. **Google Sheets API** - For real-time data access
 3. **Make.com (Integromat)** - Alternative automation platform
 4. **Google Apps Script** - For custom qualification logic
@@ -52,7 +52,7 @@ Based on Ian Whilby's LinkedIn profile, the founders and CXOs most likely to tak
 **Automation Steps:**
 
 1. **Trigger Setup:**
-   - Set up Zapier to monitor Google Sheets for new rows
+   - Set up n8n to monitor Google Sheets for new rows
    - Configure webhook to trigger on row addition
 
 2. **Qualification Logic:**
@@ -61,7 +61,7 @@ Based on Ian Whilby's LinkedIn profile, the founders and CXOs most likely to tak
    - Add qualification status to new column "Qualified"
 
 3. **Implementation:**
-   - Use Zapier's Google Sheets integration
+   - Use n8n's Google Sheets integration
    - Set up filter conditions for job titles and countries
    - Automatically mark qualified leads with "YES" in qualification column
 
@@ -72,14 +72,14 @@ Based on Ian Whilby's LinkedIn profile, the founders and CXOs most likely to tak
 **Tools Required:**
 
 1. **Instantly API** - For campaign integration
-2. **Zapier** - For workflow automation
+2. **n8n** - For workflow automation
 3. **Google Sheets API** - For status updates
 4. **Webhook integration** - For real-time updates
 
 **Process Steps:**
 
 1. **Qualified Lead Detection:**
-   - Zapier detects when a lead is marked as "Qualified = YES"
+   - n8n detects when a lead is marked as "Qualified = YES"
 
 2. **Instantly Integration:**
    - Use Instantly API to add leads to specific email campaign
@@ -140,7 +140,7 @@ graph TD
 - Set up data validation for Country field
 - Enable Google Sheets API
 
-### 2. Zapier Workflow Configuration
+### 2. n8n Workflow Configuration
 ```
 Trigger: Google Sheets - New Row
 Filter: Check if data is complete
