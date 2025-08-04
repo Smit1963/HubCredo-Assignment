@@ -56,24 +56,6 @@ Based on Ian Whilby's LinkedIn profile, the founders and CXOs most likely to tak
    ```
    Google Sheets → n8n → Data Enrichment → Qualification → Instantly → Status Update
    ```
-
-## 💰 Cost Breakdown
-
-**Monthly Costs:**
-- **n8n:** $20-50/month (cloud) or Free (self-hosted)
-- **Apollo.io:** $49-99/month
-- **Hunter.io:** $49/month
-- **LinkedIn Sales Navigator:** $79/month
-- **Instantly:** $97-297/month
-- **Total:** $300-600/month (or $200-550/month with self-hosted n8n)
-
-## 📊 Expected Performance
-
-- **Qualification Rate:** >80%
-- **API Success Rate:** >95%
-- **Processing Time:** <30 seconds
-- **Data Accuracy:** >90%
-
 ## 🔗 Key Workflow Steps
 
 1. **Data Entry** → New lead added to Google Sheets
