@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lead Qualification Workflow Diagram</title>
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .mermaid {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .legend {
+            margin-top: 30px;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 5px;
+        }
+        .legend h3 {
+            margin-top: 0;
+            color: #495057;
+        }
+        .legend-item {
+            display: flex;
+            align-items: center;
+            margin: 10px 0;
+        }
+        .color-box {
+            width: 20px;
+            height: 20px;
+            margin-right: 10px;
+            border-radius: 3px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Lead Qualification and Automation Workflow</h1>
+        
+        <div class="mermaid">
+            graph TD
+                A[New Lead Added to Google Sheets] --> B{Data Complete?}
+                B -->|No| C[Data Enrichment Process]
+                B -->|Yes| D[Lead Qualification Check]
+                
+                C --> C1[Apollo.io - Find Missing Emails]
+                C --> C2[Hunter.io - Email Verification]
+                C --> C3[LinkedIn Sales Navigator - Company/Job Title]
+                C1 --> C4[Update Google Sheets]
+                C2 --> C4
+                C3 --> C4
+                C4 --> D
+                
+                D --> D1{Job Title Contains<br/>Founder/CEO/Head of Sales?}
+                D1 -->|No| E[Mark as Not Qualified]
+                D1 -->|Yes| D2{Country is USA/UK/Canada?}
+                D2 -->|No| E
+                D2 -->|Yes| F[Mark as Qualified]
+                
+                F --> G[Instantly API Integration]
+                G --> H[Add to Email Campaign]
+                H --> I[Update Email Status to 'Queued']
+                I --> J[Lead Successfully Processed]
+                
+                E --> K[End Process]
+                J --> L[Monitor Campaign Performance]
+                
+                style F fill:#90EE90
+                style E fill:#FFB6C1
+                style J fill:#87CEEB
+                style C fill:#FFFACD
+                style G fill:#DDA0DD
+        </div>
+
+        <div class="legend">
+            <h3>Workflow Legend</h3>
+            <div class="legend-item">
+                <div class="color-box" style="background-color: #90EE90;"></div>
+                <span><strong>Qualified Lead:</strong> Meets all criteria (Job Title + Country)</span>
+            </div>
+            <div class="legend-item">
+                <div class="color-box" style="background-color: #FFB6C1;"></div>
+                <span><strong>Not Qualified:</strong> Doesn't meet criteria</span>
+            </div>
+            <div class="legend-item">
+                <div class="color-box" style="background-color: #87CEEB;"></div>
+                <span><strong>Successfully Processed:</strong> Added to campaign and status updated</span>
+            </div>
+            <div class="legend-item">
+                <div class="color-box" style="background-color: #FFFACD;"></div>
+                <span><strong>Data Enrichment:</strong> Finding missing information</span>
+            </div>
+            <div class="legend-item">
+                <div class="color-box" style="background-color: #DDA0DD;"></div>
+                <span><strong>API Integration:</strong> Connecting to Instantly</span>
+            </div>
+        </div>
+
+        <div class="legend">
+            <h3>Key Tools Used</h3>
+            <ul>
+                <li><strong>Apollo.io:</strong> Primary email finding and data enrichment</li>
+                <li><strong>Hunter.io:</strong> Email verification</li>
+                <li><strong>LinkedIn Sales Navigator:</strong> Company and job title verification</li>
+                <li><strong>Zapier:</strong> Workflow automation</li>
+                <li><strong>Instantly API:</strong> Email campaign integration</li>
+                <li><strong>Google Sheets API:</strong> Data management and updates</li>
+            </ul>
+        </div>
+    </div>
+
+    <script>
+        mermaid.initialize({
+            startOnLoad: true,
+            theme: 'default',
+            flowchart: {
+                useMaxWidth: true,
+                htmlLabels: true
+            }
+        });
+    </script>
+</body>
+</html> 
