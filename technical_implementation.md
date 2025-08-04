@@ -22,7 +22,7 @@ I: Timestamp (Auto-populated)
 - Email: Email format validation
 - LinkedIn URL: URL format validation
 
-### 2. Zapier Workflow Setup
+### 2. n8n Workflow Setup
 
 #### Workflow 1: Data Enrichment
 ```
@@ -184,48 +184,6 @@ const hunterConfig = {
 };
 ```
 
-### 8. Testing Checklist
+---
 
-#### Pre-Launch Testing:
-- [ ] Google Sheets API enabled
-- [ ] n8n workflows configured
-- [ ] Instantly API credentials verified
-- [ ] Apollo.io API access confirmed
-- [ ] Hunter.io API key validated
-- [ ] Test data processed successfully
-- [ ] Error handling tested
-- [ ] Monitoring dashboard functional
-
-#### Post-Launch Monitoring:
-- [ ] Qualification rate > 80%
-- [ ] API success rate > 95%
-- [ ] Error rate < 5%
-- [ ] Processing time < 30 seconds
-- [ ] Data accuracy > 90%
-
-### 9. Cost Estimation
-
-#### Monthly Costs:
-- **n8n:** $20-50/month (cloud version) or Free (self-hosted)
-- **Apollo.io:** $49-99/month (depending on credits needed)
-- **Hunter.io:** $49/month (email verification)
-- **LinkedIn Sales Navigator:** $79/month
-- **Instantly:** $97-297/month (depending on campaign volume)
-
-**Total Estimated Cost:** $300-600/month (or $200-550/month with self-hosted n8n)
-
-### 10. Scaling Considerations
-
-#### High Volume Optimization:
-- Use batch processing for data enrichment
-- Implement rate limiting for API calls
-- Set up webhook endpoints for real-time updates
-- Use database instead of Google Sheets for large datasets
-- Implement caching for repeated API calls
-
-#### Performance Monitoring:
-- Track API response times
-- Monitor qualification accuracy
-- Measure campaign conversion rates
-- Analyze lead quality scores
-- Optimize based on performance data 
+**Submitted by:** Smit Patel 

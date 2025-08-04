@@ -19,7 +19,6 @@ Based on Ian Whilby's LinkedIn profile, the founders and CXOs most likely to tak
 ## 📁 Repository Contents
 
 ### 📄 Documentation Files
-- **`assignment_summary.md`** - Complete answers to all assignment questions
 - **`lead_qualification_workflow.md`** - Detailed workflow documentation
 - **`technical_implementation.md`** - Technical setup guide with code examples
 - **`workflow_diagram.html`** - Interactive visual workflow diagram
@@ -50,7 +49,6 @@ Based on Ian Whilby's LinkedIn profile, the founders and CXOs most likely to tak
    - Open `workflow_diagram.html` in your browser for interactive visualization
 
 2. **Read the Complete Solution:**
-   - Start with `assignment_summary.md` for concise answers
    - Review `lead_qualification_workflow.md` for detailed documentation
    - Check `technical_implementation.md` for code examples
 
@@ -103,6 +101,4 @@ The solution includes:
 
 ---
 
-**Created for:** HubCredo Assignment  
-**Target Business:** Ian Whilby Coaching  
-**Focus:** High-impact entrepreneurs and executives 
+**Submitted by:** Smit Patel 
