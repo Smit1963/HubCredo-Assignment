@@ -1,6 +1,6 @@
 # HubCredo Assignment - Lead Qualification & Automation Workflow
 
-## 📋 Project Overview
+## 📋 Project Overview.
 
 This repository contains a comprehensive solution for automated lead qualification and email campaign management, specifically designed for Ian Whilby's business coaching services targeting high-impact entrepreneurs and executives.
 
