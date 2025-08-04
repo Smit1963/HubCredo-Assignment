@@ -49,7 +49,7 @@ Based on Ian Whilby's LinkedIn profile, the founders and CXOs most likely to tak
    - Open `workflow_diagram.html` in your browser for interactive visualization
 
 2. **Read the Complete Solution:**
-   - Review `lead_qualification_workflow.md` for detailed documentation
+   - Review `Assignment_Answers.md` for detailed documentation
    - Check `technical_implementation.md` for code examples
 
 3. **System Architecture:**
